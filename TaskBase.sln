@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBase", "TaskBase\TaskBase.csproj", "{DFB4D639-B119-480D-A766-BFCF3E419415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskBase", "TaskBase\TaskBase.csproj", "{DFB4D639-B119-480D-A766-BFCF3E419415}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BussniesLogic", "ClassLibraryTasks\BussniesLogic.csproj", "{8F9D3360-1ACD-476F-A6E7-E777DBC80118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormAppTaskBase", "WinFormAppTaskBase\WinFormAppTaskBase.csproj", "{36F0710D-BE30-4DE9-B1F0-A703F0B01D8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DFB4D639-B119-480D-A766-BFCF3E419415}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFB4D639-B119-480D-A766-BFCF3E419415}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFB4D639-B119-480D-A766-BFCF3E419415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9D3360-1ACD-476F-A6E7-E777DBC80118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9D3360-1ACD-476F-A6E7-E777DBC80118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9D3360-1ACD-476F-A6E7-E777DBC80118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9D3360-1ACD-476F-A6E7-E777DBC80118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F0710D-BE30-4DE9-B1F0-A703F0B01D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F0710D-BE30-4DE9-B1F0-A703F0B01D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F0710D-BE30-4DE9-B1F0-A703F0B01D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F0710D-BE30-4DE9-B1F0-A703F0B01D8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

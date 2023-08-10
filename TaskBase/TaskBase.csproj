@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\c#TVSproject\TaskBase\TaskBase\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\c#TVSproject\TaskBase\TaskBase\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryTasks\BussniesLogic.csproj" />
+  </ItemGroup>
+
 </Project>
